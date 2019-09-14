@@ -8,9 +8,9 @@ This linux version of this software precompiled binary is offered by ZheJiang DP
 
 Only Offer x64 version here. 
 
-**Personally Suggest DO NOT USE THEIR OFFICIAL `install.sh` script, that script will replace your own `openssl` to a relatively old version (0.9.8), since `openssl` is a core component of most linux core software, this behaviour is really dangerous!!!!!! They also replaced your `mxml` library to a relatively old version, and seems it included some breaking changes comparing with newer version.**
+**Personally Suggest DO NOT USE THEIR OFFICIAL `install.sh` script, that script will replace your own `openssl` to a relatively old version (0.9.8), since `openssl` is a core component of most linux core software, this behaviour is really dangerous!!!!!! They also replaced your `mxml` library to a relatively old version, and seems it included some breaking changes comparing with newer version. So I added the preloaded `mxml` library to this package.**
 
-So in order to make it can be used, I set it to depends on `openssl098` on AUR and `mxml` library already included in this specific version of package.
+So in order to make it can be used, I set it to **depends on**  `openssl098` on AUR and `mxml` library already included in this specific version of package(set to **conflict** with `mxml` Arch official package).
 
 **PLEASE TAKE INTO SERIOUS CONSIDERATION OF USING THIS SOFTWARE!**
 

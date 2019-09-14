@@ -24,7 +24,7 @@ $ git clone https://github.com/kmahyyg/dptech_sslvpn_ynu.git
 $ makepkg -si
 ```
 
-After that, modify the **username**, **server**, **port**, **password** inside the config in `/etc/sslvpn.conf`, then run `sudo dpsslvpn -c` to connect.
+After that, modify the **username**, **server**, **port**, **password** inside the config in `/etc/sslvpn.conf`, then run `sudo dpsslvpn -c` to connect.  **The SERVER in config file can only use IP instead of domain name.**
 
 If you wanna disconnect, run `sudo dpsslvpn -d` **twice**.
 

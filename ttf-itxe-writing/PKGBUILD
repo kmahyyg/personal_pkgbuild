@@ -3,9 +3,15 @@
 pkgname=ttf-itxe-writing
 pkgver=1.0
 pkgrel=1
+pkgdesc='A beautiful and elegant hand-writing fonts by ITXE Studio'
 depends=('fontconfig' 'xorg-fonts-encodings' 'xorg-font-utils')
 arch=('any')
+url='https://fonts.idc.moe'
 license=('custom: ITXE Custom Font License v1.0')
-source=()
-sha256sums=()
+source=(
+    ''
+)
+sha256sums=(
+    '014af36f20dc0cea3808dc18e88792987b777525ebf90166d440531c5c9758b6'
+)
 package() {}

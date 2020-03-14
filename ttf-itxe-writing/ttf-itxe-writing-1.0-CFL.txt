@@ -4,3 +4,5 @@ Thank you for using it!
 
 Author site: https://www.idc.moe
 ITXE official website: https://www.itxe.net
+
+Packager Note: We've asked the author's grant that for non-commercial and unmodified purposes, we can redistribute it.

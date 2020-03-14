@@ -11,7 +11,7 @@ license=('custom')
 options=("!strip")
 
 source=(
-    "https://github.com/kmahyyg/personal_pkgbuild/raw/master/dpsslvpn.tar.gz"
+    "dpsslvpn.tar.gz::https://github.com/kmahyyg/personal_pkgbuild/raw/master/dpsslvpn.tar.gz"
 )
 sha256sums=(
     "3ad5b4d8ca640e28f474e4aefe61787a59c8cea0c61c18c412eeb77c6ad1a388"

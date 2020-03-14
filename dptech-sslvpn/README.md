@@ -1,3 +1,5 @@
+# This package is intended for internal usage. You don't have permission to re-distribute it.
+
 # ZheJiang DPTech SSL VPN - Linux Version
 
 Based On: Arch Linux PKGBUILD System

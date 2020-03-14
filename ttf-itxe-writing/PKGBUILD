@@ -19,5 +19,5 @@ sha256sums=(
 package() {
     install -dm 755 "${pkgdir}/usr/share/fonts/TTF"
     install -m 644 ITXEWriting-${pkgver}.ttf "${pkgdir}/usr/share/fonts/TTF/ITEXWriting.ttf"
-    install -Dm644 ${pkgname}-${pkgver}-OFL.txt "${pkgdir}/usr/share/licenses/$pkgname/LICENSE"
+    install -Dm644 ${pkgname}-${pkgver}-CFL.txt "${pkgdir}/usr/share/licenses/$pkgname/LICENSE"
 }

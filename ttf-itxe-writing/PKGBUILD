@@ -1,0 +1,11 @@
+# Maintainer: Patrick Young <16604643+kmahyyg@users.noreply.github.com>
+
+pkgname=ttf-itxe-writing
+pkgver=1.0
+pkgrel=1
+depends=('fontconfig' 'xorg-fonts-encodings' 'xorg-font-utils')
+arch=('any')
+license=('custom: ITXE Custom Font License v1.0')
+source=()
+sha256sums=()
+package() {}

@@ -4,14 +4,14 @@ pkgver=7.1.0
 pkgrel=1
 depends=('openssl098')
 conflicts=('mxml')
-pkgdesc="Fucking Damn SSL VPN offered by Zhejiang DPTech, Built for YNU"
+pkgdesc="Dummy SSL VPN offered by Zhejiang DPTech"
 arch=('x86_64')
-url="https://ssl.ynu.edu.cn/"
+url="https://www.dptech.com/"
 license=('custom')
 options=("!strip")
 
 source=(
-    "dpsslvpn.tar.gz"
+    "https://github.com/kmahyyg/personal_pkgbuild/raw/master/dpsslvpn.tar.gz"
 )
 sha256sums=(
     "3ad5b4d8ca640e28f474e4aefe61787a59c8cea0c61c18c412eeb77c6ad1a388"

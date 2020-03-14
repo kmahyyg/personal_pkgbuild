@@ -1,0 +1,15 @@
+pkgbase = dptech-sslvpn
+	pkgdesc = Dummy SSL VPN offered by Zhejiang DPTech
+	pkgver = 7.1.0
+	pkgrel = 1
+	url = https://www.dptech.com/
+	arch = x86_64
+	license = custom
+	depends = openssl098
+	conflicts = mxml
+	options = !strip
+	source = dpsslvpn.tar.gz::https://github.com/kmahyyg/personal_pkgbuild/raw/master/dpsslvpn.tar.gz
+	sha256sums = 3ad5b4d8ca640e28f474e4aefe61787a59c8cea0c61c18c412eeb77c6ad1a388
+
+pkgname = dptech-sslvpn
+

@@ -1,0 +1,25 @@
+# Maintainer: kmahyyg <16604643+kmahyyg@users.noreply.github.com>
+pkgname=nasmshell
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="A shell for NASM, easy and fast to help hackers"
+arch=('x86_64' 'i686')
+url="https://gitub.com/fishstiqz/nasmshell"
+license=('MIT')
+depends=('python3' 'nasm')
+makedepends=('git')
+provides=('nasmshell')
+source=('git+https://github.com/fishstiqz/nasmshell#branch=master')
+sha256sums=('SKIP')
+
+pkgver() {
+    cd "nasmshell"
+    REVDATA=$(git describe --long --all | cut -d "-" -f3)
+    echo "git_$REVDATA"
+}
+
+package() {
+    cd "nasmshell"
+    install -Dm755 nasmshell "${pkgdir}/usr/bin/nasmshell"
+}
+

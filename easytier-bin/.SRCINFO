@@ -1,9 +1,8 @@
 pkgbase = easytier-bin
 	pkgdesc = Powered by Rust and Tokio. A simple,secure,decentralized mesh VPN solution with NAT-traversal support.
 	pkgver = 2.4.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/EasyTier/EasyTier
-	install = easytier-bin.install
 	arch = x86_64
 	arch = aarch64
 	license = Apache License 2.0
